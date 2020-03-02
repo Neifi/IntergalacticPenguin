@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1242747963164544}
+  m_IsPrefabAsset: 1
+--- !u!1 &1242747963164544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4011912812735684}
+  - component: {fileID: 114315621235108138}
+  - component: {fileID: 61035934141816642}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4011912812735684
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242747963164544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.24, y: 5.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61035934141816642
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242747963164544}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -15.0127735, y: -5.2158613}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.82842636, y: 11.431723}
+  m_EdgeRadius: 0
+--- !u!114 &114315621235108138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242747963164544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c4b98669ddce5459ec16b27554751a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletSpeed: -10
+  bulletRB: {fileID: 0}
+  powerUps: []
+  asteroidsA: []
+  spawnValues: {x: 9, y: 7.5, z: 0}
+  tiempoCadaOleada: 0.5
+  tiempoPreparacion: 1
+  speedBonus: {fileID: 1466007564868940, guid: 189a5bf125205fa4895899cdd14fe5bd, type: 2}
+  fireRateBonus: {fileID: 1152674671635536, guid: be26554242625394a85e2f5381b312dd,
+    type: 2}
+  tripleSpawnBonus: {fileID: 1566838016719254, guid: 42ccc974be23a1447a4dd62f8182eea3,
+    type: 2}
+  bonusPorOleada: 1
+  tiempoSpawnCadaBonus: 0.5
+  enemy: {fileID: 1939385415203850, guid: a44c7c88189eeaf439c696a0be6fa298, type: 2}
+  enemyPorOleada: 20
+  tiempoSpawnEnemigo: 0.5
+  asteroidA1: {fileID: 1587068423926536, guid: 1ff94192be4444547a730d6fbba6e63d, type: 2}
+  asteroidA2: {fileID: 0}
+  asteroidA3: {fileID: 0}
+  asteroidesOleada: 1
+  tiempoSpawnCadaAsteroide: 0.5
+  pointText: {fileID: 114702597587009766, guid: a37a487b5cda643409a69a03981b8545,
+    type: 2}
